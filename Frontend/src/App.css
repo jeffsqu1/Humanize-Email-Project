@@ -1,0 +1,39 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.error {
+  color: #c0392b;
+}
